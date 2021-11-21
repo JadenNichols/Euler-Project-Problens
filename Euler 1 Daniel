@@ -1,0 +1,6 @@
+x = []
+for numbers in range(1000):
+    if numbers is not x and numbers % 3 == 0 or numbers % 5 == 0:
+        x.append(numbers)
+
+print(sum(x))
